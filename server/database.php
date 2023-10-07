@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = 'localhost';
+    private $host = 'localhost:3306';
     private $user = 'root';
     private $password = '';
-    private $database = 'my';
+    private $database = 'bookstore';
 
     public function connect() {
         $connection = new mysqli($this->host, $this->user, $this->password, $this->database);

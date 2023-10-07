@@ -50,9 +50,9 @@ class UserController {
             );
         }
     }
-
+    
     public function showMe($idRoute = null, $queryParams, $postData, $fromUser) {
-
+        
         $user = new UserModel();
         $select = ['id', 'role', 'fullname', 'avt_url' ,'bday' , 'username' , 'email'];
 
