@@ -276,19 +276,19 @@ INSERT INTO REVIEW (rating, review, user_id, book_isbn)
 VALUES (4, 'I really enjoyed this book and would definitely recommend it to others!', 2, 1);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
-VALUES (3, 'This book was pretty good, but I didn\'t love it.', 3, 5);
+VALUES (3, 'This book was pretty good, but I did not love it.', 3, 5);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
 VALUES (5, 'Absolutely loved this book! Would read it again and again!', 4, 10);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
-VALUES (2, 'I wasn\'t a fan of this book. It was too slow-paced for my liking.', 5, 14);
+VALUES (2, 'I was not a fan of this book. It was too slow-paced for my liking.', 5, 14);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
 VALUES (4, 'I found this book to be informative and engaging. Would recommend to anyone interested in the topic.', 6, 16);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
-VALUES (3, 'I thought this book was just okay. It didn\'t really hold my interest.', 2, 3);
+VALUES (3, 'I thought this book was just okay. It did not really hold my interest.', 2, 3);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
 VALUES (5, 'I absolutely loved this book! It was well-written and kept me engaged from beginning to end.', 3, 6);
@@ -297,10 +297,10 @@ INSERT INTO REVIEW (rating, review, user_id, book_isbn)
 VALUES (4, 'This was a great book! I learned a lot and would recommend it to others.', 4, 8);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
-VALUES (2, 'I didn\'t really enjoy this book. It was too predictable for my liking.', 5, 12);
+VALUES (2, 'I did not really enjoy this book. It was too predictable for my liking.', 5, 12);
 
 INSERT INTO REVIEW (rating, review, user_id, book_isbn)
-VALUES (5, 'This book was fantastic! I couldn\'t put it down and would definitely read it again.', 6, 15);
+VALUES (5, 'This book was fantastic! I could not put it down and would definitely read it again.', 6, 15);
 
 /*BLOG*/
 INSERT INTO BLOG (title, banner_url, publish_date, tag, content)
