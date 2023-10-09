@@ -249,7 +249,7 @@ const Register = () => {
                                 target.classList.toggle("none");
                             }}
                         />
-                        <div className="title">Email Đã có người sử dụng</div>
+                        <div className="title">Email Already in use!</div>
                     </div>
                 </div>
             </div> */}

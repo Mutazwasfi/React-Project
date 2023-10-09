@@ -131,7 +131,7 @@ const Login = () => {
                                 target.classList.toggle("none");
                             }}
                         />
-                        <div className="title">Email hoặc mật khẩu sai!</div>
+                        <div className="title">Wrong email or password!</div>
                     </div>
                 </div>
             </div> */}

@@ -137,9 +137,9 @@ function Dashboard() {
 
     const [statuses, setStatuses] = useState([]);
     const handleSelectChange = async (value, index) => {
-        const newStatuses = [...statuses]; // Tạo một bản sao của mảng statuses
-        newStatuses[index] = value; // Cập nhật giá trị tại vị trí index
-        setStatuses(newStatuses); // Cập nhật mảng statuses mới
+        const newStatuses = [...statuses]; // Make a copy of the array statuses
+        newStatuses[index] = value; // Update value at location index
+        setStatuses(newStatuses); // Update new statuses array
         try {
             await axios.patch(`${BASE_URL}order/${index}`, { status: value }, { withCredentials: true })
                 .then(res => {
@@ -207,7 +207,7 @@ function Dashboard() {
                     <Space size="middle">
                         <Select
                             defaultValue={record.status}
-                            value={statuses[record.key]} // Lấy giá trị từ mảng statuses tại vị trí index
+                            value={statuses[record.key]} // Get value from statuses array at position index
                             onChange={(value) => handleSelectChange(value, record.key)}
                             style={{ width: 100 }}
                             options={[

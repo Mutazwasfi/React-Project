@@ -41,11 +41,11 @@ function ResetPassword() {
     },
     validationSchema: Yup.object({
       newpassword: Yup.string()
-        .required("Yêu cầu nhập đúng mật khẩu")
-        .matches(/^(?=.*[0-9])/, "Mật khẩu phải chứa ít nhất 8 kí tự"),
+        .required("Required to enter correct password")
+        .matches(/^(?=.*[0-9])/, "Password must contain at least 8 characters"),
       confirm: Yup.string()
-        .oneOf([Yup.ref("newpassword"), null], "Nhập lại mật khẩu không chính xác")
-        .required("Yêu cầu nhập lại mật khẩu"),
+        .oneOf([Yup.ref("newpassword"), null], "Re-enter incorrect password")
+        .required("Request to re-enter password"),
     }),
     onSubmit: async (values) => {
       const datanewpassword = {
@@ -61,7 +61,7 @@ function ResetPassword() {
             logoutUser(dispatch, navigate);
           }
           else {
-            alert("Đổi mật khẩu thất bại");
+            alert("Password change failed");
           }
         })
     },
