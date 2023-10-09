@@ -42,7 +42,7 @@ function ChangePassword() {
             await axios.post(`${BASE_URL}auth/updatepassword`, updateUser, { withCredentials: true })
                 .then(res => {
                     if (res.data.status === "success") {
-                        alert("Password changed successfully");
+                        console.log("Password changed successfully");
                         formik.resetForm();
                     }
                     else {

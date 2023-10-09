@@ -143,7 +143,7 @@ function Dashboard() {
         try {
             await axios.patch(`${BASE_URL}order/${index}`, { status: value }, { withCredentials: true })
                 .then(res => {
-                    alert(res.data.message)
+                    console.log(res.data.message)
                 })
                 .catch(err => {
                     alert(err.response.data.message)

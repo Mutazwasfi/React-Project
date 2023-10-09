@@ -84,7 +84,7 @@ function Contact() {
     await axios.post(`${BASE_URL}contact`, data, { withCredentials: true })
       .then(res => {
         console.log(res.data);
-        alert('Send message successfully');
+        console.log('Send message successfully');
         setFullname('');
         setEmail('');
         setTitle('');

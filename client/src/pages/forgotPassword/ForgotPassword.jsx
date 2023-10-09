@@ -24,7 +24,7 @@ function ForgotPassword() {
         }
         await axios.post(`${BASE_URL}forgot-password`, data, { withCredentials: true })
             .then(res => {
-                alert(res.data.message);
+                console.log(res.data.message);
 
             })
             .catch(err => {

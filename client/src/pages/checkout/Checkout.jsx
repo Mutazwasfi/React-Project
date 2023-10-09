@@ -55,7 +55,7 @@ export default function Checkout() {
       .then(res => {
         console.log(res.data)
         dispatch(clearCart())
-        alert('Order Success')
+        console.log('Order Success')
       })
       .catch(err => {
         console.log(err)
