@@ -28,7 +28,7 @@ function About() {
                         <div className="Circle">
                             <img src={admin1} style={{ maxWidth: '100%', maxHeight: '100%', borderRadius: '50%' }} />
                         </div>
-                        <div className="name">lorm </div>
+                        <div className="name">Abd al-rahman </div>
 
                         <div className="member_info">
                         Frontend<br></br>Design and implement responsive interfaces for pages and elements, ensuring an optimal user experience on any device.
@@ -40,7 +40,7 @@ function About() {
                         <div className="Circle">
                             <img src={admin2} style={{ maxWidth: '150px', height: '150px', borderRadius: '50% ' }} />
                         </div>
-                        <div className="name">lorm</div>
+                        <div className="name">Huda</div>
 
                         <div className="member_info">
                             Frontend<br></br>Design and implement responsive interfaces for pages and elements, ensuring an optimal user experience on any device.
@@ -52,7 +52,7 @@ function About() {
                         <div className="Circle">
                             <img src={admin3} style={{ width: '150px', height: '150px', borderRadius: '50% 50%' }} />
                         </div>
-                        <div className="name">lorm</div>
+                        <div className="name">Majd</div>
 
                         <div className="member_info">
                             Front end<br></br>Implements connecting APIs from the backend, supporting interface implementation and implementing features for the user interface.
@@ -64,7 +64,7 @@ function About() {
                         <div className="Circle">
                             <img src={admin4} style={{ maxWidth: '100%', maxHeight: '100%', borderRadius: '50% ' }} />
                         </div>
-                        <div className="name">lorm</div>
+                        <div className="name">Mahmoud</div>
 
                         <div className="member_info">
                             Back end<br></br>Implement APIs for the backend and database, ensuring data is efficiently queried, updated, and secured.

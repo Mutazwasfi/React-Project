@@ -119,7 +119,7 @@ return (
                 <br></br>
                 <EnvironmentFilled />
                 &nbsp;
-                Amman
+                Aqaba
 
                 <br></br>
                 <br></br>
@@ -135,15 +135,15 @@ return (
                 <br></br>
                 <ClockCircleTwoTone />
                 &nbsp;
-                Monday to Friday: 8.00 AM to 16.00 PM
+                Sunday to Thursday: 8.00 AM to 16.00 PM
               </div>
             </div>
 
           </section>
         </div>
         <div className="maps">
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433869.38330790447!2d35.9476308!3d31.83576035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5fb85d7981af%3A0x631c30c0f8dc65e8!2sAmman!5e0!3m2!1sen!2sjo!4v1696549955480!5m2!1sen!2sjo" width="100%" height="500" ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1852.2086312687252!2d35.01291006708955!3d29.535325926898217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2sjo!4v1696830663222!5m2!1sar!2sjo" width="100%" height="500"></iframe>
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433869.38330790447!2d35.9476308!3d31.83576035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5fb85d7981af%3A0x631c30c0f8dc65e8!2sAmman!5e0!3m2!1sen!2sjo!4v1696549955480!5m2!1sen!2sjo" width="100%" height="500" ></iframe> */}
           {/* width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" */}
         </div>
       </div>
