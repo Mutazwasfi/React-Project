@@ -28,7 +28,7 @@ export const loginUser = async (user, dispatch, navigate) => {
             if (res.data.status == "error") {
                 dispatch(loginFalse());
                 
-                alert(res.data.message);
+                console.log(res.data.message);
                 // const target = document.querySelector(".overlayz");
                 // setTimeout(() => {
                 //     target.classList.toggle("none");
@@ -36,7 +36,7 @@ export const loginUser = async (user, dispatch, navigate) => {
                 
             } else { 
                 dispatch(loginSuccess(res.data));
-                alert(res.data.message);
+                console.log(res.data.message);
                
                 navigate("/");
                 
@@ -60,7 +60,7 @@ export const logoutUser = async (dispatch, navigate) => {
         await axios.get(`${BASE_URL}auth/logout`)
             .then((res) => {
                 dispatch(logOutSuccess());
-                alert(res.data.message);
+                console.log(res.data.message);
                 navigate("/login");
             });
     } catch (error) {
